@@ -64,7 +64,9 @@ class SettingsPageUI(QtWidgets.QWidget):
         self.credential_services = [self.tr("Custom"), self.tr("Deepseek"), self.tr("Open AI GPT"), self.tr("Microsoft Azure"), self.tr("Google Cloud"), 
                                     self.tr("Google Gemini"), self.tr("DeepL"), self.tr("Anthropic Claude"), self.tr("Yandex")]
         
-        self.supported_translators = [self.tr("GPT-4.1"), self.tr("GPT-4.1-mini"), self.tr("DeepL"), 
+        self.supported_translators = [self.tr("GPT-4.1"), self.tr("GPT-4.1-mini"), 
+                                    self.tr("GPT-5"), self.tr("GPT-5-mini"),
+                                    self.tr("DeepL"), 
                                     self.tr("Claude-4.5-Sonnet"), self.tr("Claude-4.5-Haiku"),
                                     self.tr("Gemini-2.5-Flash"), self.tr("Yandex"), self.tr("Google Translate"),
                                     self.tr("Microsoft Translator"), self.tr("Deepseek-v3"), self.tr("Custom"),]
@@ -100,6 +102,8 @@ class SettingsPageUI(QtWidgets.QWidget):
             self.tr("Deepseek-v3"): "Deepseek-v3",
             self.tr("GPT-4.1"): "GPT-4.1",
             self.tr("GPT-4.1-mini"): "GPT-4.1-mini",
+            self.tr("GPT-5"): "GPT-5",
+            self.tr("GPT-5-mini"): "GPT-5-mini",
             self.tr("DeepL"): "DeepL",
             self.tr("Claude-4.5-Sonnet"): "Claude-4.5-Sonnet",
             self.tr("Claude-4.5-Haiku"): "Claude-4.5-Haiku",
